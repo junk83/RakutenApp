@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF5405631BAD57DB0027C1CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5405611BAD57DB0027C1CD /* Main.storyboard */; };
+		BFD38DC11BA3FDC000DD4BA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD38DC01BA3FDC000DD4BA6 /* AppDelegate.swift */; };
+		BFD38DC31BA3FDC000DD4BA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD38DC21BA3FDC000DD4BA6 /* ViewController.swift */; };
+		BFD38DC81BA3FDC000DD4BA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD38DC71BA3FDC000DD4BA6 /* Images.xcassets */; };
+		BFD38DCB1BA3FDC000DD4BA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFD38DC91BA3FDC000DD4BA6 /* LaunchScreen.xib */; };
+		BFD38DD71BA3FDC000DD4BA6 /* RakutenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD38DD61BA3FDC000DD4BA6 /* RakutenAppTests.swift */; };
+		BFD38DE11BA4008900DD4BA6 /* RakutenItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD38DE01BA4008900DD4BA6 /* RakutenItemViewController.swift */; };
+		BFD38DE41BA402D700DD4BA6 /* Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD38DE31BA402D700DD4BA6 /* Bridging.m */; };
+		BFD38DE61BA4034F00DD4BA6 /* placeholderimage.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD38DE51BA4034F00DD4BA6 /* placeholderimage.png */; };
+		BFD38DE81BA4235B00DD4BA6 /* RakutenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD38DE71BA4235B00DD4BA6 /* RakutenItem.swift */; };
+		BFD38DEA1BA426B500DD4BA6 /* RakutenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD38DE91BA426B500DD4BA6 /* RakutenAPI.swift */; };
+		DF53D4A62E0B26677DD341F3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3304137371C431AF2087E1A /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFD38DD11BA3FDC000DD4BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFD38DB31BA3FDC000DD4BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFD38DBA1BA3FDC000DD4BA6;
+			remoteInfo = RakutenApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48490E6032A30776DFBD8201 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5405621BAD57DB0027C1CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFD38DBB1BA3FDC000DD4BA6 /* RakutenApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RakutenApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD38DBF1BA3FDC000DD4BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD38DC01BA3FDC000DD4BA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFD38DC21BA3FDC000DD4BA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFD38DC71BA3FDC000DD4BA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFD38DCA1BA3FDC000DD4BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BFD38DD01BA3FDC000DD4BA6 /* RakutenAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RakutenAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD38DD51BA3FDC000DD4BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFD38DD61BA3FDC000DD4BA6 /* RakutenAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RakutenAppTests.swift; sourceTree = "<group>"; };
+		BFD38DE01BA4008900DD4BA6 /* RakutenItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RakutenItemViewController.swift; sourceTree = "<group>"; };
+		BFD38DE21BA402D600DD4BA6 /* RakutenApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RakutenApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFD38DE31BA402D700DD4BA6 /* Bridging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bridging.m; sourceTree = "<group>"; };
+		BFD38DE51BA4034F00DD4BA6 /* placeholderimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholderimage.png; sourceTree = "<group>"; };
+		BFD38DE71BA4235B00DD4BA6 /* RakutenItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RakutenItem.swift; sourceTree = "<group>"; };
+		BFD38DE91BA426B500DD4BA6 /* RakutenAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RakutenAPI.swift; sourceTree = "<group>"; };
+		C749D6416BD2886F1ED5F175 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E3304137371C431AF2087E1A /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD38DB81BA3FDC000DD4BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF53D4A62E0B26677DD341F3 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD38DCD1BA3FDC000DD4BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1509095FF4AC585A97FBD522 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48490E6032A30776DFBD8201 /* Pods.debug.xcconfig */,
+				C749D6416BD2886F1ED5F175 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFD38DB21BA3FDC000DD4BA6 = {
+			isa = PBXGroup;
+			children = (
+				BFD38DE51BA4034F00DD4BA6 /* placeholderimage.png */,
+				BFD38DBD1BA3FDC000DD4BA6 /* RakutenApp */,
+				BFD38DD31BA3FDC000DD4BA6 /* RakutenAppTests */,
+				BFD38DBC1BA3FDC000DD4BA6 /* Products */,
+				1509095FF4AC585A97FBD522 /* Pods */,
+				C193D6076EA08D948FABC38B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD38DBC1BA3FDC000DD4BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD38DBB1BA3FDC000DD4BA6 /* RakutenApp.app */,
+				BFD38DD01BA3FDC000DD4BA6 /* RakutenAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD38DBD1BA3FDC000DD4BA6 /* RakutenApp */ = {
+			isa = PBXGroup;
+			children = (
+				BFD38DC21BA3FDC000DD4BA6 /* ViewController.swift */,
+				BFD38DE01BA4008900DD4BA6 /* RakutenItemViewController.swift */,
+				BFD38DE91BA426B500DD4BA6 /* RakutenAPI.swift */,
+				BFD38DC01BA3FDC000DD4BA6 /* AppDelegate.swift */,
+				BF5405611BAD57DB0027C1CD /* Main.storyboard */,
+				BFD38DE71BA4235B00DD4BA6 /* RakutenItem.swift */,
+				BFD38DE31BA402D700DD4BA6 /* Bridging.m */,
+				BFD38DC71BA3FDC000DD4BA6 /* Images.xcassets */,
+				BFD38DC91BA3FDC000DD4BA6 /* LaunchScreen.xib */,
+				BFD38DBE1BA3FDC000DD4BA6 /* Supporting Files */,
+				BFD38DE21BA402D600DD4BA6 /* RakutenApp-Bridging-Header.h */,
+			);
+			path = RakutenApp;
+			sourceTree = "<group>";
+		};
+		BFD38DBE1BA3FDC000DD4BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD38DBF1BA3FDC000DD4BA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFD38DD31BA3FDC000DD4BA6 /* RakutenAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFD38DD61BA3FDC000DD4BA6 /* RakutenAppTests.swift */,
+				BFD38DD41BA3FDC000DD4BA6 /* Supporting Files */,
+			);
+			path = RakutenAppTests;
+			sourceTree = "<group>";
+		};
+		BFD38DD41BA3FDC000DD4BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD38DD51BA3FDC000DD4BA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C193D6076EA08D948FABC38B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3304137371C431AF2087E1A /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD38DBA1BA3FDC000DD4BA6 /* RakutenApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD38DDA1BA3FDC000DD4BA6 /* Build configuration list for PBXNativeTarget "RakutenApp" */;
+			buildPhases = (
+				AC2EDF56BDA2D376D8093B9D /* Check Pods Manifest.lock */,
+				BFD38DB71BA3FDC000DD4BA6 /* Sources */,
+				BFD38DB81BA3FDC000DD4BA6 /* Frameworks */,
+				BFD38DB91BA3FDC000DD4BA6 /* Resources */,
+				C2B70401BC01D906AABC8AFD /* Embed Pods Frameworks */,
+				0896D0F8ABB0B547C19CB84E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RakutenApp;
+			productName = RakutenApp;
+			productReference = BFD38DBB1BA3FDC000DD4BA6 /* RakutenApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFD38DCF1BA3FDC000DD4BA6 /* RakutenAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD38DDD1BA3FDC000DD4BA6 /* Build configuration list for PBXNativeTarget "RakutenAppTests" */;
+			buildPhases = (
+				BFD38DCC1BA3FDC000DD4BA6 /* Sources */,
+				BFD38DCD1BA3FDC000DD4BA6 /* Frameworks */,
+				BFD38DCE1BA3FDC000DD4BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFD38DD21BA3FDC000DD4BA6 /* PBXTargetDependency */,
+			);
+			name = RakutenAppTests;
+			productName = RakutenAppTests;
+			productReference = BFD38DD01BA3FDC000DD4BA6 /* RakutenAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD38DB31BA3FDC000DD4BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = jun;
+				TargetAttributes = {
+					BFD38DBA1BA3FDC000DD4BA6 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BFD38DCF1BA3FDC000DD4BA6 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BFD38DBA1BA3FDC000DD4BA6;
+					};
+				};
+			};
+			buildConfigurationList = BFD38DB61BA3FDC000DD4BA6 /* Build configuration list for PBXProject "RakutenApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFD38DB21BA3FDC000DD4BA6;
+			productRefGroup = BFD38DBC1BA3FDC000DD4BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD38DBA1BA3FDC000DD4BA6 /* RakutenApp */,
+				BFD38DCF1BA3FDC000DD4BA6 /* RakutenAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFD38DB91BA3FDC000DD4BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD38DE61BA4034F00DD4BA6 /* placeholderimage.png in Resources */,
+				BFD38DCB1BA3FDC000DD4BA6 /* LaunchScreen.xib in Resources */,
+				BFD38DC81BA3FDC000DD4BA6 /* Images.xcassets in Resources */,
+				BF5405631BAD57DB0027C1CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD38DCE1BA3FDC000DD4BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0896D0F8ABB0B547C19CB84E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2EDF56BDA2D376D8093B9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B70401BC01D906AABC8AFD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD38DB71BA3FDC000DD4BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD38DE11BA4008900DD4BA6 /* RakutenItemViewController.swift in Sources */,
+				BFD38DEA1BA426B500DD4BA6 /* RakutenAPI.swift in Sources */,
+				BFD38DC31BA3FDC000DD4BA6 /* ViewController.swift in Sources */,
+				BFD38DC11BA3FDC000DD4BA6 /* AppDelegate.swift in Sources */,
+				BFD38DE41BA402D700DD4BA6 /* Bridging.m in Sources */,
+				BFD38DE81BA4235B00DD4BA6 /* RakutenItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD38DCC1BA3FDC000DD4BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD38DD71BA3FDC000DD4BA6 /* RakutenAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFD38DD21BA3FDC000DD4BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFD38DBA1BA3FDC000DD4BA6 /* RakutenApp */;
+			targetProxy = BFD38DD11BA3FDC000DD4BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF5405611BAD57DB0027C1CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5405621BAD57DB0027C1CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFD38DC91BA3FDC000DD4BA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFD38DCA1BA3FDC000DD4BA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFD38DD81BA3FDC000DD4BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFD38DD91BA3FDC000DD4BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFD38DDB1BA3FDC000DD4BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48490E6032A30776DFBD8201 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RakutenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RakutenApp/RakutenApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFD38DDC1BA3FDC000DD4BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C749D6416BD2886F1ED5F175 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = RakutenApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RakutenApp/RakutenApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BFD38DDE1BA3FDC000DD4BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RakutenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RakutenApp.app/RakutenApp";
+			};
+			name = Debug;
+		};
+		BFD38DDF1BA3FDC000DD4BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RakutenAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RakutenApp.app/RakutenApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD38DB61BA3FDC000DD4BA6 /* Build configuration list for PBXProject "RakutenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD38DD81BA3FDC000DD4BA6 /* Debug */,
+				BFD38DD91BA3FDC000DD4BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD38DDA1BA3FDC000DD4BA6 /* Build configuration list for PBXNativeTarget "RakutenApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD38DDB1BA3FDC000DD4BA6 /* Debug */,
+				BFD38DDC1BA3FDC000DD4BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD38DDD1BA3FDC000DD4BA6 /* Build configuration list for PBXNativeTarget "RakutenAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD38DDE1BA3FDC000DD4BA6 /* Debug */,
+				BFD38DDF1BA3FDC000DD4BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD38DB31BA3FDC000DD4BA6 /* Project object */;
+}
